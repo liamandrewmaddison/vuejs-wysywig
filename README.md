@@ -1,6 +1,6 @@
-# signable
+# VUEJS WYSIWYG
 
-> Template Renderer
+> Cute simple editor built in my favourite framework. Super easy!
 
 ## Build Setup
 
