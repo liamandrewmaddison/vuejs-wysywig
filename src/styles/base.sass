@@ -1,0 +1,40 @@
+@import '~styles/main.sass'
+@import '~styles/_button.sass'
+@import '~styles/_container.sass'
+
+//
+// MAIN
+//
+body, html
+  font-family: 'Avenir', Helvetica, Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  background-color: $color-bg
+  color: $color-font-main
+  margin: 0
+  padding: 0
+  font-weight: 500
+  *
+    box-sizing: border-box
+
+//
+// HEADER
+//
+header
+  background: $color-main
+  padding: $spacing-base
+  img
+    width: 100px
+    display: block
+  h3
+    color: #fff
+    margin: 0
+//
+// TYPOGRAPHY
+//
+h1
+  font-size: $font-size-main-header
+h2
+  font-size: $font-size-header
+h3
+  font-size: $font-size-large
